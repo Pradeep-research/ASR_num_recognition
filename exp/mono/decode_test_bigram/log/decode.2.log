@@ -1,0 +1,332 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph_test_bigram/words.txt exp/mono/final.mdl exp/mono/graph_test_bigram/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/2/utt2spk scp:data/test/split4/2/cmvn.scp scp:data/test/split4/2/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/mono/decode_test_bigram/lat.2.gz" 
+# Started at Tue Apr 19 17:26:11 IST 2022
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph_test_bigram/words.txt exp/mono/final.mdl exp/mono/graph_test_bigram/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/2/utt2spk scp:data/test/split4/2/cmvn.scp scp:data/test/split4/2/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/mono/decode_test_bigram/lat.2.gz' 
+apply-cmvn --utt2spk=ark:data/test/split4/2/utt2spk scp:data/test/split4/2/cmvn.scp scp:data/test/split4/2/feats.scp ark:- 
+add-deltas ark:- ark:- 
+AS013M0001 xunnyo xunnyo nax aath xaat soi paas 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0001 is -6.37859 over 698 frames.
+AS013M0002 paas saari tini dui ek xunnyo ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0002 is -6.35791 over 698 frames.
+AS013M0003 ek nax xaat paas tini dui ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0003 is -6.15209 over 698 frames.
+AS013M0004 dui nax soi saari dui xunnyo tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0004 is -6.18059 over 698 frames.
+AS013M0005 tini nax paas dui saari nax saari 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0005 is -6.08443 over 698 frames.
+AS013M0006 saari ek paas nax tini xunnyo soi 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0006 is -6.52638 over 498 frames.
+AS013M0007 soi nax dui xaat nax ek aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0007 is -6.28905 over 498 frames.
+AS013M0008 aath nax xunnyo aath soi tini saari 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0008 is -6.42929 over 498 frames.
+AS013M0009 saari xunnyo xaat saari aath paas ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0009 is -6.35058 over 498 frames.
+AS013M0010 ek xaat tini tini aath saari saari 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0010 is -6.19147 over 498 frames.
+AS013M0011 saari xaat dui paas aath tini soi 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0011 is -6.30843 over 498 frames.
+AS013M0012 soi aath dui aath ek soi dui 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0012 is -6.36341 over 498 frames.
+AS013M0013 dui soi ek dui tini xaat ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0013 is -6.29579 over 498 frames.
+AS013M0014 ek saari soi xunnyo saari paas xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0014 is -6.25671 over 498 frames.
+AS013M0015 xunnyo paas xaat xunnyo dui dui tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0015 is -6.27753 over 498 frames.
+AS013M0016 tini paas soi xaat aath xunnyo ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0016 is -6.17777 over 498 frames.
+AS013M0017 ek tini saari paas paas soi soi 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0017 is -6.18545 over 498 frames.
+AS013M0018 soi xaat xaat aath aath nax nax 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0018 is -6.24944 over 498 frames.
+AS013M0019 nax xunnyo ek ek dui ek xaat 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0019 is -6.26232 over 498 frames.
+AS013M0020 xaat nax ek tini paas xaat nax 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0020 is -6.0804 over 498 frames.
+AS013M0021 xunnyo xunnyo ek dui tini saari paas 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0021 is -6.18679 over 498 frames.
+AS013M0022 paas soi xaat aath nax ek xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0022 is -6.17032 over 498 frames.
+AS013M0023 xunnyo dui saari soi aath dui xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0023 is -6.30965 over 498 frames.
+AS013M0024 xunnyo tini paas xaat nax tini xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0024 is -6.17032 over 498 frames.
+AS013M0025 xunnyo saari xaat saari xunnyo paas aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0025 is -6.22327 over 498 frames.
+AS013M0026 aath paas xunnyo soi nax soi xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0026 is -6.23712 over 498 frames.
+AS013M0027 xunnyo xaat aath xunnyo aath aath xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0027 is -6.32241 over 498 frames.
+AS013M0028 xunnyo nax nax xunnyo ek ek tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0028 is -6.16359 over 498 frames.
+AS013M0029 tini soi ek saari aath ek paas 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0029 is -6.30812 over 498 frames.
+AS013M0030 paas nax dui paas saari soi 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0030 is -6.19614 over 498 frames.
+AS013M0031 soi paas ek xaat soi dui soi 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0031 is -6.67031 over 498 frames.
+AS013M0032 soi tini xaat ek aath tini aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0032 is -6.68913 over 498 frames.
+AS013M0033 aath nax saari nax paas dui ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0033 is -6.49367 over 498 frames.
+AS013M0034 ek nax xaat dui xaat paas tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0034 is -6.31212 over 498 frames.
+AS013M0035 tini nax aath xaat tini ek dui 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0035 is -6.25743 over 498 frames.
+AS013M0036 dui dui aath saari dui nax xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0036 is -6.36553 over 498 frames.
+AS013M0037 xunnyo ek dui tini dui tini tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0037 is -6.32676 over 498 frames.
+AS013M0038 tini saari tini saari saari paas paas 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0038 is -6.36892 over 498 frames.
+AS013M0039 paas soi saari paas soi soi xaat 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0039 is -6.26696 over 498 frames.
+AS013M0040 xaat aath soi xaat ek dui saari 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0040 is -6.28392 over 498 frames.
+AS013M0041 xunnyo nax xunnyo ek dui tini saari 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0041 is -6.26642 over 498 frames.
+AS013M0042 saari paas soi xaat aath nax aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0042 is -6.37193 over 498 frames.
+AS013M0043 aath xunnyo dui saari soi aath xaat 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0043 is -6.3789 over 498 frames.
+AS013M0044 xaat xunnyo tini paas xaat nax soi 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0044 is -6.23461 over 498 frames.
+AS013M0045 soi xunnyo saari xaat paas xunnyo paas 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0045 is -6.45602 over 498 frames.
+AS013M0046 paas aath saari xunnyo soi nax tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0046 is -6.278 over 498 frames.
+AS013M0047 tini xunnyo xaat dui xunnyo aath ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0047 is -6.40664 over 498 frames.
+AS013M0048 ek xunnyo xunnyo ek nax ek tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0048 is -6.29436 over 498 frames.
+AS013M0049 tini soi ek saari aath dui paas 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0049 is -6.39538 over 498 frames.
+AS013M0050 paas nax dui soi paas soi paas 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0050 is -6.26033 over 498 frames.
+AS013M0051 paas saari ek soi tini ek xaat 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0051 is -6.30428 over 498 frames.
+AS013M0052 xaat ek xaat tini xaat tini aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0052 is -6.26701 over 498 frames.
+AS013M0053 aath nax nax saari nax paas dui 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0053 is -6.13034 over 498 frames.
+AS013M0054 dui xaat soi dui aath paas tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0054 is -6.33585 over 498 frames.
+AS013M0055 tini nax xaat saari dui ek ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0055 is -6.21536 over 498 frames.
+AS013M0056 ek dui nax xunnyo ek dui dui 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0056 is -6.18513 over 498 frames.
+AS013M0057 dui tini dui tini tini saari tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0057 is -6.36849 over 498 frames.
+AS013M0058 tini saari saari paas paas soi saari 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0058 is -6.36015 over 498 frames.
+AS013M0059 aath aath aath xunnyo xunnyo xunnyo xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0059 is -6.3601 over 498 frames.
+AS013M0060 aath soi xaat aath aath nax xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0060 is -6.38706 over 498 frames.
+AS013M0061 xunnyo nax nax aath aath soi paas 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0061 is -6.4006 over 498 frames.
+AS013M0062 paas saari tini dui ek xunnyo aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0062 is -6.32676 over 498 frames.
+AS013M0063 aath nax xaat paas tini ek xaat 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0063 is -6.40017 over 498 frames.
+AS013M0064 xaat nax soi saari dui xunnyo soi 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0064 is -6.45483 over 498 frames.
+AS013M0065 soi nax paas dui paas nax saari 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0065 is -6.56187 over 498 frames.
+AS013M0066 saari ek saari nax tini xunnyo tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0066 is -6.42093 over 498 frames.
+AS013M0067 tini nax dui dui nax ek ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0067 is -6.37888 over 498 frames.
+AS013M0068 ek nax xunnyo xunnyo xaat saari xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0068 is -6.46777 over 498 frames.
+AS013M0069 xunnyo ek xaat soi tini aath aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0069 is -6.54579 over 498 frames.
+AS013M0070 aath paas ek soi dui soi aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0070 is -6.47483 over 498 frames.
+AS013M0071 aath saari paas aath tini saari aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0071 is -6.38882 over 498 frames.
+AS013M0072 aath dui tini xaat tini soi ek ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0072 is -6.34562 over 498 frames.
+AS013M0073 ek paas xunnyo paas soi xaat dui 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0073 is -6.20927 over 498 frames.
+AS013M0074 dui aath ek tini paas paas xaat 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0074 is -6.24294 over 498 frames.
+AS013M0075 xaat ek dui xaat xunnyo dui saari 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0075 is -6.29159 over 498 frames.
+AS013M0076 saari xaat aath xunnyo ek dui tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0076 is -6.34145 over 498 frames.
+AS013M0077 tini tini saari soi xunnyo saari saari 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0077 is -6.40343 over 498 frames.
+AS013M0078 saari paas soi soi xaat xaat aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0078 is -6.27853 over 498 frames.
+AS013M0079 nax nax ek tini paas xaat nax 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0079 is -6.19095 over 498 frames.
+AS013M0080 dui soi nax ek dui saari tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS013M0080 is -6.35003 over 498 frames.
+AS014M0001 xunnyo xunnyo nax aath xaat soi paas 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0001 is -7.19634 over 498 frames.
+AS014M0002 ek paas saari tini dui ek xunnyo ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0002 is -7.21429 over 498 frames.
+AS014M0003 ek nax xaat paas tini ek dui 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0003 is -7.11422 over 498 frames.
+AS014M0004 dui nax soi saari dui nax tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0004 is -6.51225 over 498 frames.
+AS014M0005 paas 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0005 is -6.05522 over 498 frames.
+AS014M0006 saari ek paas nax tini xunnyo soi 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0006 is -7.36136 over 498 frames.
+AS014M0007 soi nax dui xaat nax ek aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0007 is -6.89631 over 498 frames.
+AS014M0008 aath nax xunnyo aath soi tini saari 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0008 is -6.91231 over 498 frames.
+AS014M0009 saari xunnyo aath saari aath paas ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0009 is -7.06927 over 498 frames.
+AS014M0010 ek aath tini tini aath saari saari 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0010 is -7.10571 over 498 frames.
+AS014M0011 saari xaat dui paas aath tini soi 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0011 is -7.03311 over 498 frames.
+AS014M0012 soi aath dui aath ek soi dui 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0012 is -7.09582 over 498 frames.
+AS014M0013 dui soi ek dui tini xaat ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0013 is -6.96983 over 498 frames.
+AS014M0014 ek saari soi xunnyo saari paas xunnyo ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0014 is -7.1282 over 498 frames.
+AS014M0015 xunnyo paas xaat xunnyo dui dui tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0015 is -6.65111 over 498 frames.
+AS014M0016 tini paas soi xaat aath xunnyo ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0016 is -6.67154 over 498 frames.
+AS014M0017 ek tini saari paas paas soi soi 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0017 is -6.84348 over 498 frames.
+AS014M0018 soi xaat xaat aath aath nax nax 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0018 is -6.66673 over 498 frames.
+AS014M0019 nax xunnyo ek ek dui ek aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0019 is -6.76839 over 498 frames.
+AS014M0020 xaat nax ek tini paas xaat nax 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0020 is -6.70941 over 498 frames.
+AS014M0021 xunnyo xunnyo ek dui tini saari paas 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0021 is -6.88569 over 498 frames.
+AS014M0022 paas soi xaat aath nax ek xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0022 is -6.80338 over 498 frames.
+AS014M0023 xunnyo dui saari soi xaat dui xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0023 is -7.09336 over 498 frames.
+AS014M0024 xunnyo tini paas xaat nax tini xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0024 is -6.88527 over 498 frames.
+AS014M0025 xunnyo saari xaat saari xunnyo paas aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0025 is -6.81649 over 498 frames.
+AS014M0026 aath paas xunnyo soi nax soi xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0026 is -6.6018 over 498 frames.
+AS014M0027 xunnyo xaat xaat xunnyo aath aath xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0027 is -6.87944 over 498 frames.
+AS014M0028 xunnyo nax nax xunnyo ek ek tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0028 is -6.76722 over 498 frames.
+AS014M0029 tini soi ek saari aath ek paas 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0029 is -7.02568 over 498 frames.
+AS014M0030 paas nax dui paas saari ek soi 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0030 is -7.03604 over 498 frames.
+AS014M0031 soi paas ek xaat soi dui soi 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0031 is -7.10047 over 498 frames.
+AS014M0032 soi tini xaat ek aath tini aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0032 is -6.67531 over 498 frames.
+AS014M0033 aath nax saari nax paas dui ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0033 is -6.99894 over 498 frames.
+AS014M0034 ek nax xaat dui xaat paas tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0034 is -6.77469 over 498 frames.
+AS014M0035 tini nax xaat xaat tini ek dui ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0035 is -6.97763 over 498 frames.
+AS014M0036 dui dui aath saari dui nax xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0036 is -6.75127 over 498 frames.
+AS014M0037 xunnyo ek dui tini dui tini tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0037 is -6.83654 over 498 frames.
+AS014M0038 tini saari tini saari saari paas paas 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0038 is -6.95675 over 498 frames.
+AS014M0039 paas soi saari paas soi soi aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0039 is -6.91993 over 498 frames.
+AS014M0040 xaat aath soi xaat ek dui saari 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0040 is -6.75209 over 498 frames.
+AS014M0041 xunnyo nax xunnyo ek dui tini saari 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0041 is -6.7904 over 498 frames.
+AS014M0042 saari paas soi xaat aath nax aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0042 is -6.67412 over 498 frames.
+AS014M0043 aath xunnyo dui saari soi aath aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0043 is -6.78517 over 498 frames.
+AS014M0044 xaat xunnyo tini paas xaat nax soi 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0044 is -6.64648 over 498 frames.
+AS014M0045 soi xunnyo saari xaat paas xunnyo paas ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0045 is -7.01762 over 498 frames.
+AS014M0046 paas aath saari xunnyo soi nax tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0046 is -6.96976 over 498 frames.
+AS014M0047 tini xunnyo xaat dui xunnyo aath ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0047 is -6.701 over 498 frames.
+AS014M0048 ek xunnyo xunnyo ek nax ek tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0048 is -6.69437 over 498 frames.
+AS014M0049 tini soi ek saari aath dui paas 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0049 is -6.92114 over 498 frames.
+AS014M0050 paas nax dui soi paas ek paas 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0050 is -6.98017 over 498 frames.
+AS014M0051 paas saari ek soi tini ek aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0051 is -6.73657 over 498 frames.
+AS014M0052 xaat ek aath tini xaat tini aath xaat 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0052 is -6.85823 over 498 frames.
+AS014M0053 aath nax nax saari nax paas dui 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0053 is -6.5096 over 498 frames.
+AS014M0054 dui xaat soi dui aath paas tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0054 is -6.95795 over 498 frames.
+AS014M0055 tini nax xaat saari dui ek ek ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0055 is -6.99083 over 498 frames.
+AS014M0056 ek dui nax xunnyo ek dui dui xaat 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0056 is -6.8995 over 498 frames.
+AS014M0057 dui tini dui tini tini saari tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0057 is -6.80242 over 498 frames.
+AS014M0058 tini saari saari paas paas soi saari 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0058 is -6.82932 over 498 frames.
+AS014M0059 aath aath aath xunnyo xunnyo nax xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0059 is -6.52192 over 498 frames.
+AS014M0060 aath soi xaat aath aath nax xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0060 is -6.82314 over 498 frames.
+AS014M0061 xunnyo nax nax aath xaat soi paas 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0061 is -6.64292 over 498 frames.
+AS014M0062 paas saari tini dui ek xunnyo aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0062 is -7.04227 over 498 frames.
+AS014M0063 aath nax xaat paas tini ek xaat 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0063 is -6.65678 over 498 frames.
+AS014M0064 xaat nax soi saari dui xunnyo soi 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0064 is -6.74631 over 498 frames.
+AS014M0065 soi nax paas dui paas nax saari ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0065 is -7.00057 over 498 frames.
+AS014M0066 saari ek saari nax tini xunnyo tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0066 is -6.88441 over 498 frames.
+AS014M0067 tini nax dui dui nax ek ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0067 is -6.57273 over 498 frames.
+AS014M0068 ek nax xunnyo xunnyo xaat saari xunnyo 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0068 is -6.77643 over 498 frames.
+AS014M0069 xunnyo ek aath soi tini aath aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0069 is -6.73893 over 498 frames.
+AS014M0070 aath paas ek soi dui soi aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0070 is -6.75243 over 498 frames.
+AS014M0071 aath saari paas aath tini saari aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0071 is -6.72573 over 498 frames.
+AS014M0072 aath dui tini xaat tini soi ek 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0072 is -6.57575 over 498 frames.
+AS014M0073 ek paas xunnyo paas soi xaat dui 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0073 is -6.68613 over 498 frames.
+AS014M0074 dui aath ek tini paas paas xaat 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0074 is -6.67863 over 498 frames.
+AS014M0075 xaat ek dui xaat xunnyo dui saari 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0075 is -6.99339 over 498 frames.
+AS014M0076 saari xaat aath xunnyo ek dui tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0076 is -6.70166 over 498 frames.
+LOG (apply-cmvn[5.5.1016~1-5a372]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 160 utterances, errors on 0
+AS014M0077 tini tini saari soi xunnyo saari saari 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0077 is -6.81708 over 498 frames.
+AS014M0078 saari paas soi soi xaat aath aath 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0078 is -6.68978 over 498 frames.
+AS014M0079 nax nax ek tini paas xaat nax 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0079 is -6.59495 over 498 frames.
+AS014M0080 dui soi nax ek dui saari tini 
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance AS014M0080 is -6.62037 over 498 frames.
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:main():gmm-latgen-faster.cc:176) Time taken 19.8043s: real-time factor assuming 100 frames/sec is 0.0245467
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:main():gmm-latgen-faster.cc:179) Done 160 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.1016~1-5a372]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -6.57056 over 80680 frames.
+# Accounting: time=19 threads=1
+# Ended (code 0) at Tue Apr 19 17:26:30 IST 2022, elapsed time 19 seconds
